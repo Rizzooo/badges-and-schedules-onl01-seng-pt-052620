@@ -26,6 +26,7 @@ def printer(attendees)
     assignment_array = []
   attendees.collect do |names|
     "Hello my name is #{names}."
+  
   attendees.each_with_index do |name, index|
     assignment_array << ""
 end
