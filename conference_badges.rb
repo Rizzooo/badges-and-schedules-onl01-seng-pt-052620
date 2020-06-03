@@ -25,6 +25,9 @@ def printer(attendees)
     attendees.collect do |names|
     puts "Hello, my name is #{names}."
   assignments = assign_rooms(attendees)
-    
-    puts
+    new_array = []
+  attendees.each_with_index do | name, index |
+    indexplusone = index + 1
+    new_array << "Hello, #{name}! You'll be assigned to room #{indexplusone}!"
+    puts new_array
 end
