@@ -22,6 +22,8 @@ end
 
 def printer(attendees)
   badges = batch_badge_creator(attendees)
+    attendees.collect do |names|
+    "Hello, my name is #{names}."
     puts
   assignments = assign_rooms(attendees)
     puts
