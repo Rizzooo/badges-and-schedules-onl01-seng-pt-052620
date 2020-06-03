@@ -21,5 +21,7 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  newest_array = [batch_badge_creator, assign_rooms]
+  badges = [names]
+  assignments = [name, index]
+  badges << 
 end
