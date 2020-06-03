@@ -30,3 +30,5 @@ def printer(attendees)
   attendees.each_with_index do |name, index|
     assignment_array << "Hello, #{name}! You'll be assigned to room #{indexplusone}!"
 end
+end
+end
