@@ -31,3 +31,5 @@ def printer(attendees)
     new_array << "Hello, #{name}! You'll be assigned to room #{indexplusone}!"
     puts new_array
 end
+end
+end
