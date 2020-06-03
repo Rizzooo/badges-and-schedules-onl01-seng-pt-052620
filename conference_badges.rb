@@ -23,8 +23,8 @@ end
 def printer(attendees)
   badges = batch_badge_creator(attendees)
     attendees.collect do |names|
-    "Hello, my name is #{names}."
-    puts
+    puts "Hello, my name is #{names}."
   assignments = assign_rooms(attendees)
+    
     puts
 end
