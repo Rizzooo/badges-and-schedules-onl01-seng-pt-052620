@@ -21,7 +21,6 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  badges = [names]
   assignments = [name, index]
     assignment_array = []
   attendees.collect do |names|
