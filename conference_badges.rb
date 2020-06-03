@@ -24,12 +24,12 @@ def printer(attendees)
   badges = batch_badge_creator(attendees)
     attendees.collect do |names|
     puts "Hello, my name is #{names}."
+  end
   assignments = assign_rooms(attendees)
     new_array = []
   attendees.each_with_index do | name, index |
     indexplusone = index + 1
     new_array << "Hello, #{name}! You'll be assigned to room #{indexplusone}!"
     puts new_array
-end
 end
 end
