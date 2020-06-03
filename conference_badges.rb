@@ -21,13 +21,5 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  assignments = [name, index]
-    assignment_array = []
-  attendees.collect do |names|
-    "Hello my name is #{names}."
-  attendees.each_with_index do |name, index|
-    indexplusone = index + 1
-    assignment_array << "Hello, #{name}! You'll be assigned to room #{indexplusone}!"
-end
-end
+  
 end
